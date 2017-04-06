@@ -3,11 +3,11 @@
 # Rotates rsync-based backup snapshots
 # Idea: http://www.mikerubel.org/computers/rsync_snapshots/
 
-# Usage: rotate_snapshots -l level -n num source_snapshot
+# Usage: rotate-snapshots -l level -n num source_snapshot
 # Examples:
-#   rotate_snapshots -l daily -n 7 $HOME/backups/snapshot
-#   rotate_snapshots -l weekly -n 4 $HOME/backups/daily[.6]
-#   rotate_snapshots -l monthly -n 99 $HOME/backups/weekly[.3]
+#   rotate-snapshots -l daily -n 7 $HOME/backups/snapshot
+#   rotate-snapshots -l weekly -n 4 $HOME/backups/daily[.6]
+#   rotate-snapshots -l monthly -n 99 $HOME/backups/weekly[.3]
 
 PATH=/bin:/usr/bin
 
